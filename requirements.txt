@@ -6,3 +6,8 @@ matplotlib==3.11.2
 scikit-learn==1.9.1
 notebook==7.6.3
 ipykernel==7.4.0
+
+# --- Added for Lab N2 (Neural Networks) ---
+tensorflow==2.21.0   # pulls in keras, h5py, ml_dtypes, protobuf, ...
+keras==3.15.1        # pinned for reproducibility (tensorflow would install it anyway)
+openml==0.15.1       # MNIST download (dataset 554); pulls in liac-arff, pyarrow, minio, xmltodict
